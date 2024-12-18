@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // app.use('/monitoring', monitorRoute);
-app.use('/', homeRoute);
+app.use('/' ,homeRoute);
 app.use('/users', usersRoute);
 
 

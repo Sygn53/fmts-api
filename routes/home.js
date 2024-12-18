@@ -5,3 +5,5 @@ const router = express.Router();
 router.get('/', (req, res) => {
     res.send("Ohohohoh müdürüm");// this gets executed when user visit http://localhost:3000/user
 });
+
+module.exports = router;
