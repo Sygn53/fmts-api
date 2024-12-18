@@ -4,9 +4,8 @@ const data = require('../example/data.json');
 
 // Define a route
 router.get('/ayar', (req, res) => {
-
     try {
-        res.send(JSON.stringify(data));// this gets executed when user visit http://localhost:3000/user
+        res.json(data);
     } catch (err) {
         console.error('Veri alma hatası:', err);
         res.status(500).json({ error: 'Veri alınamadı.' });
