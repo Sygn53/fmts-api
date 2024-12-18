@@ -1,0 +1,96 @@
+{
+  "haberturk": {
+    "ios": {
+      "forceUpdate" : {
+        "active": false,
+        "version": "7.6.0",
+        "url": "https://apps.apple.com/tr/app/haberturk/id341081552?l=tr",
+        "mandatory": false,
+        "title": "Güncelleme",
+        "text": "Uygulamanın yeni sürümü mevcuttur. Lütfen uygulamayı güncelleyiniz."
+      },
+      "webView": {
+        "active": false,
+        "url": "https://www.haberturk.com/force-update/bloomberght",
+        "redirectUrl": "https://www.haberturk.com",
+        "closable": true
+      },
+      "notificationWidget": {
+        "active": true,
+        "timeDay": 14
+      },
+      "mobile": {
+        "active": false,
+        "url": "https://www.haberturk.com"
+      },
+      "taboolaActive": true,
+      "ads" : {
+        "masthead": true,
+        "banner": true,
+        "stickyBanner": true
+      }
+    },
+    "android": {
+      "forceUpdate" : {
+        "active": false,
+        "version": "6.5.0",
+        "url": "https://play.google.com/store/apps/details?id=cbg.android.haberturk&hl=tr",
+        "mandatory": false,
+        "title": "Güncelleme",
+        "text": "Uygulamanın yeni sürümü mevcuttur. Lütfen uygulamayı güncelleyiniz."
+      },
+      "webView": {
+        "active": false,
+        "url": "https://www.haberturk.com/force-update/bloomberght",
+        "redirectUrl": ""
+      },
+      "notificationWidget": {
+        "active": false,
+        "timeDay": 14
+      },
+      "mobile": {
+        "active": false,
+        "url": "https://www.haberturk.com"
+      },
+      "taboolaActive": true,
+      "ads" : {
+        "masthead": true,
+        "banner": true,
+        "stickyBanner": true
+      }
+    },
+    "huawei": {
+      "forceUpdate" : {
+        "active": false,
+        "version": "7.6.7",
+        "url": "https://appgallery.cloud.huawei.com/ag/n/app/C101192597?locale=tr_TR&source=appshare&subsource=C101192597",
+        "mandatory": true,
+        "title": "Güncelleme",
+        "text": "Uygulamanın yeni sürümü mevcuttur. Lütfen uygulamayı güncelleyiniz."
+      },
+      "webView": {
+        "active": false,
+        "url": "https://www.haberturk.com/force-update/bloomberght",
+        "redirectUrl": ""
+      },
+      "notificationWidget": {
+        "active": true,
+        "timeDay": 14
+      },
+      "mobile": {
+        "active": false,
+        "url": "https://www.haberturk.com"
+      },
+      "taboolaActive": true,
+      "ads" : {
+        "masthead": true,
+        "banner": true,
+        "stickyBanner": true
+      }
+    },
+    "api": {
+      "apiHostname": "https://htapi.haberturk.com/api/v1/",
+      "apiHostnameStage": "https://htapistage.haberturk.com/api/v1/"
+    }
+  }
+}
