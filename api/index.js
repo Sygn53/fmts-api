@@ -17,11 +17,11 @@ app.use('/amazonData', amazonData);
 app.use('/words', wordsData);
 
 // const ipAddress = "10.34.10.138"; // IP adresiniz
-const ipAddress = "10.34.10.138"; // IP adresiniz
-const port = process.env.PORT || 3031;
+// const ipAddress = "10.34.10.138"; // IP adresiniz
+// const port = process.env.PORT || 3031;
 
-app.listen(port, ipAddress,() => {
-    console.log(`Server is running at http://${ipAddress}:${port}`);
-});
+// app.listen(port, ipAddress,() => {
+//     console.log(`Server is running at http://${ipAddress}:${port}`);
+// });
 
-// module.exports = app;
+module.exports = app;
