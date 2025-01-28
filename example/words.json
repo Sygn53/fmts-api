@@ -1,0 +1,1804 @@
+{
+  "words": [
+    {
+      "id": 0,
+      "word": "Aslan",
+      "categoryId": 1
+    },
+    {
+      "id": 1,
+      "word": "Kaplan",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "word": "Fil",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "word": "Zürafa",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "word": "Ayı",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "word": "Kurt",
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "word": "Tilki",
+      "categoryId": 1
+    },
+    {
+      "id": 7,
+      "word": "Çakal",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "word": "Sincap",
+      "categoryId": 1
+    },
+    {
+      "id": 9,
+      "word": "Tavşan",
+      "categoryId": 1
+    },
+    {
+      "id": 10,
+      "word": "Fare",
+      "categoryId": 1
+    },
+    {
+      "id": 11,
+      "word": "Köpek",
+      "categoryId": 1
+    },
+    {
+      "id": 12,
+      "word": "Kedi",
+      "categoryId": 1
+    },
+    {
+      "id": 13,
+      "word": "At",
+      "categoryId": 1
+    },
+    {
+      "id": 14,
+      "word": "İnek",
+      "categoryId": 1
+    },
+    {
+      "id": 15,
+      "word": "Deve",
+      "categoryId": 1
+    },
+    {
+      "id": 16,
+      "word": "Domuz",
+      "categoryId": 1
+    },
+    {
+      "id": 17,
+      "word": "Kanguru",
+      "categoryId": 1
+    },
+    {
+      "id": 18,
+      "word": "Yaban domuzu",
+      "categoryId": 1
+    },
+    {
+      "id": 19,
+      "word": "Geyik",
+      "categoryId": 1
+    },
+    {
+      "id": 20,
+      "word": "Kartal",
+      "categoryId": 1
+    },
+    {
+      "id": 21,
+      "word": "Şahin",
+      "categoryId": 1
+    },
+    {
+      "id": 22,
+      "word": "Baykuş",
+      "categoryId": 1
+    },
+    {
+      "id": 23,
+      "word": "Serçe",
+      "categoryId": 1
+    },
+    {
+      "id": 24,
+      "word": "Güvercin",
+      "categoryId": 1
+    },
+    {
+      "id": 25,
+      "word": "Karga",
+      "categoryId": 1
+    },
+    {
+      "id": 26,
+      "word": "Leylek",
+      "categoryId": 1
+    },
+    {
+      "id": 27,
+      "word": "Papağan",
+      "categoryId": 1
+    },
+    {
+      "id": 28,
+      "word": "Flamingo",
+      "categoryId": 1
+    },
+    {
+      "id": 29,
+      "word": "Martı",
+      "categoryId": 1
+    },
+    {
+      "id": 30,
+      "word": "Kaz",
+      "categoryId": 1
+    },
+    {
+      "id": 31,
+      "word": "Ördek",
+      "categoryId": 1
+    },
+    {
+      "id": 32,
+      "word": "Yılan",
+      "categoryId": 1
+    },
+    {
+      "id": 33,
+      "word": "Timsah",
+      "categoryId": 1
+    },
+    {
+      "id": 34,
+      "word": "Kaplumbağa",
+      "categoryId": 1
+    },
+    {
+      "id": 35,
+      "word": "Kertenkele",
+      "categoryId": 1
+    },
+    {
+      "id": 36,
+      "word": "İguana",
+      "categoryId": 1
+    },
+    {
+      "id": 37,
+      "word": "Somon",
+      "categoryId": 1
+    },
+    {
+      "id": 38,
+      "word": "Alabalık",
+      "categoryId": 1
+    },
+    {
+      "id": 39,
+      "word": "Turna",
+      "categoryId": 1
+    },
+    {
+      "id": 40,
+      "word": "Yunus",
+      "categoryId": 1
+    },
+    {
+      "id": 41,
+      "word": "Köpek balığı",
+      "categoryId": 1
+    },
+    {
+      "id": 42,
+      "word": "Ahtapot",
+      "categoryId": 1
+    },
+    {
+      "id": 43,
+      "word": "Palamut",
+      "categoryId": 1
+    },
+    {
+      "id": 44,
+      "word": "Hamsi",
+      "categoryId": 1
+    },
+    {
+      "id": 45,
+      "word": "Arı",
+      "categoryId": 1
+    },
+    {
+      "id": 46,
+      "word": "Karınca",
+      "categoryId": 1
+    },
+    {
+      "id": 47,
+      "word": "Kelebek",
+      "categoryId": 1
+    },
+    {
+      "id": 48,
+      "word": "Çekirge",
+      "categoryId": 1
+    },
+    {
+      "id": 49,
+      "word": "Uğur böceği",
+      "categoryId": 1
+    },
+    {
+      "id": 50,
+      "word": "Akrep",
+      "categoryId": 1
+    },
+    {
+      "id": 51,
+      "word": "Örümcek",
+      "categoryId": 1
+    },
+    {
+      "id": 52,
+      "word": "Kurbağa",
+      "categoryId": 1
+    },
+    {
+      "id": 53,
+      "word": "Penguen",
+      "categoryId": 1
+    },
+    {
+      "id": 54,
+      "word": "Balina",
+      "categoryId": 1
+    },
+    {
+      "id": 55,
+      "word": "Denizatı",
+      "categoryId": 1
+    },
+    {
+      "id": 56,
+      "word": "Mürekkep balığı",
+      "categoryId": 1
+    },
+    {
+      "id": 57,
+      "word": "Doktor",
+      "categoryId": 2
+    },
+    {
+      "id": 58,
+      "word": "Hemşire",
+      "categoryId": 2
+    },
+    {
+      "id": 59,
+      "word": "Mühendis",
+      "categoryId": 2
+    },
+    {
+      "id": 60,
+      "word": "Mimar",
+      "categoryId": 2
+    },
+    {
+      "id": 61,
+      "word": "Öğretmen",
+      "categoryId": 2
+    },
+    {
+      "id": 62,
+      "word": "Avukat",
+      "categoryId": 2
+    },
+    {
+      "id": 63,
+      "word": "Hakim",
+      "categoryId": 2
+    },
+    {
+      "id": 64,
+      "word": "Savcı",
+      "categoryId": 2
+    },
+    {
+      "id": 65,
+      "word": "Polis",
+      "categoryId": 2
+    },
+    {
+      "id": 66,
+      "word": "Asker",
+      "categoryId": 2
+    },
+    {
+      "id": 67,
+      "word": "Pilot",
+      "categoryId": 2
+    },
+    {
+      "id": 68,
+      "word": "Hostes",
+      "categoryId": 2
+    },
+    {
+      "id": 69,
+      "word": "Bilgisayar Programcısı",
+      "categoryId": 2
+    },
+    {
+      "id": 70,
+      "word": "Grafik Tasarımcı",
+      "categoryId": 2
+    },
+    {
+      "id": 71,
+      "word": "Web Geliştirici",
+      "categoryId": 2
+    },
+    {
+      "id": 72,
+      "word": "Aşçı",
+      "categoryId": 2
+    },
+    {
+      "id": 73,
+      "word": "Garson",
+      "categoryId": 2
+    },
+    {
+      "id": 74,
+      "word": "Kasiyer",
+      "categoryId": 2
+    },
+    {
+      "id": 75,
+      "word": "Şoför",
+      "categoryId": 2
+    },
+    {
+      "id": 76,
+      "word": "Tesisatçı",
+      "categoryId": 2
+    },
+    {
+      "id": 77,
+      "word": "Elektrikçi",
+      "categoryId": 2
+    },
+    {
+      "id": 78,
+      "word": "Marangoz",
+      "categoryId": 2
+    },
+    {
+      "id": 79,
+      "word": "İnşaat İşçisi",
+      "categoryId": 2
+    },
+    {
+      "id": 80,
+      "word": "Çiftçi",
+      "categoryId": 2
+    },
+    {
+      "id": 81,
+      "word": "Balıkçı",
+      "categoryId": 2
+    },
+    {
+      "id": 82,
+      "word": "Veteriner",
+      "categoryId": 2
+    },
+    {
+      "id": 83,
+      "word": "Muhasebeci",
+      "categoryId": 2
+    },
+    {
+      "id": 84,
+      "word": "Ekonomist",
+      "categoryId": 2
+    },
+    {
+      "id": 85,
+      "word": "Psikolog",
+      "categoryId": 2
+    },
+    {
+      "id": 86,
+      "word": "Sosyolog",
+      "categoryId": 2
+    },
+    {
+      "id": 87,
+      "word": "Gazeteci",
+      "categoryId": 2
+    },
+    {
+      "id": 88,
+      "word": "Yazar",
+      "categoryId": 2
+    },
+    {
+      "id": 89,
+      "word": "Editör",
+      "categoryId": 2
+    },
+    {
+      "id": 90,
+      "word": "Çevirmen",
+      "categoryId": 2
+    },
+    {
+      "id": 91,
+      "word": "Ressam",
+      "categoryId": 2
+    },
+    {
+      "id": 92,
+      "word": "Heykeltıraş",
+      "categoryId": 2
+    },
+    {
+      "id": 93,
+      "word": "Müzisyen",
+      "categoryId": 2
+    },
+    {
+      "id": 94,
+      "word": "Oyuncu",
+      "categoryId": 2
+    },
+    {
+      "id": 95,
+      "word": "Dansçı",
+      "categoryId": 2
+    },
+    {
+      "id": 96,
+      "word": "Şarkıcı",
+      "categoryId": 2
+    },
+    {
+      "id": 97,
+      "word": "Kuaför",
+      "categoryId": 2
+    },
+    {
+      "id": 98,
+      "word": "Berber",
+      "categoryId": 2
+    },
+    {
+      "id": 99,
+      "word": "Diş Hekimi",
+      "categoryId": 2
+    },
+    {
+      "id": 100,
+      "word": "Eczacı",
+      "categoryId": 2
+    },
+    {
+      "id": 101,
+      "word": "Jeolog",
+      "categoryId": 2
+    },
+    {
+      "id": 102,
+      "word": "Arkeolog",
+      "categoryId": 2
+    },
+    {
+      "id": 103,
+      "word": "Bilim İnsanı",
+      "categoryId": 2
+    },
+    {
+      "id": 104,
+      "word": "Astronom",
+      "categoryId": 2
+    },
+    {
+      "id": 105,
+      "word": "Kütüphaneci",
+      "categoryId": 2
+    },
+    {
+      "id": 106,
+      "word": "Turizm Rehberi",
+      "categoryId": 2
+    },
+    {
+      "id": 107,
+      "word": "Satış Danışmanı",
+      "categoryId": 2
+    },
+    {
+      "id": 108,
+      "word": "Pazarlamacı",
+      "categoryId": 2
+    },
+    {
+      "id": 109,
+      "word": "Reklamcı",
+      "categoryId": 2
+    },
+    {
+      "id": 110,
+      "word": "Sigortacı",
+      "categoryId": 2
+    },
+    {
+      "id": 111,
+      "word": "Futbol",
+      "categoryId": 3
+    },
+    {
+      "id": 112,
+      "word": "Basketbol",
+      "categoryId": 3
+    },
+    {
+      "id": 113,
+      "word": "Voleybol",
+      "categoryId": 3
+    },
+    {
+      "id": 114,
+      "word": "Tenis",
+      "categoryId": 3
+    },
+    {
+      "id": 115,
+      "word": "Atletizm",
+      "categoryId": 3
+    },
+    {
+      "id": 116,
+      "word": "Yüzme",
+      "categoryId": 3
+    },
+    {
+      "id": 117,
+      "word": "Hentbol",
+      "categoryId": 3
+    },
+    {
+      "id": 118,
+      "word": "Güreş",
+      "categoryId": 3
+    },
+    {
+      "id": 119,
+      "word": "Boks",
+      "categoryId": 3
+    },
+    {
+      "id": 120,
+      "word": "Jimnastik",
+      "categoryId": 3
+    },
+    {
+      "id": 121,
+      "word": "Badminton",
+      "categoryId": 3
+    },
+    {
+      "id": 122,
+      "word": "Kayak",
+      "categoryId": 3
+    },
+    {
+      "id": 123,
+      "word": "Snowboard",
+      "categoryId": 3
+    },
+    {
+      "id": 124,
+      "word": "Okçuluk",
+      "categoryId": 3
+    },
+    {
+      "id": 125,
+      "word": "Bisiklet",
+      "categoryId": 3
+    },
+    {
+      "id": 126,
+      "word": "Masa Tenisi",
+      "categoryId": 3
+    },
+    {
+      "id": 127,
+      "word": "Golf",
+      "categoryId": 3
+    },
+    {
+      "id": 128,
+      "word": "Sörf",
+      "categoryId": 3
+    },
+    {
+      "id": 129,
+      "word": "Yelkencilik",
+      "categoryId": 3
+    },
+    {
+      "id": 130,
+      "word": "Dağcılık",
+      "categoryId": 3
+    },
+    {
+      "id": 131,
+      "word": "Halter",
+      "categoryId": 3
+    },
+    {
+      "id": 132,
+      "word": "Rugby",
+      "categoryId": 3
+    },
+    {
+      "id": 133,
+      "word": "Amerikan Futbolu",
+      "categoryId": 3
+    },
+    {
+      "id": 134,
+      "word": "Motorsiklet Yarışı",
+      "categoryId": 3
+    },
+    {
+      "id": 135,
+      "word": "Formula 1",
+      "categoryId": 3
+    },
+    {
+      "id": 136,
+      "word": "Esports",
+      "categoryId": 3
+    },
+    {
+      "id": 137,
+      "word": "Karate",
+      "categoryId": 3
+    },
+    {
+      "id": 138,
+      "word": "Tekvando",
+      "categoryId": 3
+    },
+    {
+      "id": 139,
+      "word": "Eskrim",
+      "categoryId": 3
+    },
+    {
+      "id": 140,
+      "word": "Maraton",
+      "categoryId": 3
+    },
+    {
+      "id": 141,
+      "word": "Paralimpik",
+      "categoryId": 3
+    },
+    {
+      "id": 142,
+      "word": "Kick Boks",
+      "categoryId": 3
+    },
+    {
+      "id": 143,
+      "word": "Bowling",
+      "categoryId": 3
+    },
+    {
+      "id": 144,
+      "word": "Dalış",
+      "categoryId": 3
+    },
+    {
+      "id": 145,
+      "word": "Yelken",
+      "categoryId": 3
+    },
+    {
+      "id": 146,
+      "word": "Satranç",
+      "categoryId": 3
+    },
+    {
+      "id": 147,
+      "word": "Plaj Voleybolu",
+      "categoryId": 3
+    },
+    {
+      "id": 148,
+      "word": "Binicilik",
+      "categoryId": 3
+    },
+    {
+      "id": 149,
+      "word": "Parkur",
+      "categoryId": 3
+    },
+    {
+      "id": 150,
+      "word": "Frizbi",
+      "categoryId": 3
+    },
+    {
+      "id": 151,
+      "word": "Kano",
+      "categoryId": 3
+    },
+    {
+      "id": 152,
+      "word": "Rafting",
+      "categoryId": 3
+    },
+    {
+      "id": 153,
+      "word": "Masa",
+      "categoryId": 4
+    },
+    {
+      "id": 154,
+      "word": "Sandalye",
+      "categoryId": 4
+    },
+    {
+      "id": 155,
+      "word": "Dolap",
+      "categoryId": 4
+    },
+    {
+      "id": 156,
+      "word": "Yatak",
+      "categoryId": 4
+    },
+    {
+      "id": 157,
+      "word": "Yastık",
+      "categoryId": 4
+    },
+    {
+      "id": 158,
+      "word": "Battaniye",
+      "categoryId": 4
+    },
+    {
+      "id": 159,
+      "word": "Halı",
+      "categoryId": 4
+    },
+    {
+      "id": 160,
+      "word": "Lamba",
+      "categoryId": 4
+    },
+    {
+      "id": 161,
+      "word": "Ayna",
+      "categoryId": 4
+    },
+    {
+      "id": 162,
+      "word": "Perde",
+      "categoryId": 4
+    },
+    {
+      "id": 163,
+      "word": "Raf",
+      "categoryId": 4
+    },
+    {
+      "id": 164,
+      "word": "Kitaplık",
+      "categoryId": 4
+    },
+    {
+      "id": 165,
+      "word": "Televizyon",
+      "categoryId": 4
+    },
+    {
+      "id": 166,
+      "word": "Bilgisayar",
+      "categoryId": 4
+    },
+    {
+      "id": 167,
+      "word": "Telefon",
+      "categoryId": 4
+    },
+    {
+      "id": 168,
+      "word": "Saat",
+      "categoryId": 4
+    },
+    {
+      "id": 169,
+      "word": "Koltuk",
+      "categoryId": 4
+    },
+    {
+      "id": 170,
+      "word": "Sehpa",
+      "categoryId": 4
+    },
+    {
+      "id": 171,
+      "word": "Buzdolabı",
+      "categoryId": 4
+    },
+    {
+      "id": 172,
+      "word": "Çamaşır Makinesi",
+      "categoryId": 4
+    },
+    {
+      "id": 173,
+      "word": "Bulaşık Makinesi",
+      "categoryId": 4
+    },
+    {
+      "id": 174,
+      "word": "Fırın",
+      "categoryId": 4
+    },
+    {
+      "id": 175,
+      "word": "Mikrodalga",
+      "categoryId": 4
+    },
+    {
+      "id": 176,
+      "word": "Çaydanlık",
+      "categoryId": 4
+    },
+    {
+      "id": 177,
+      "word": "Tencere",
+      "categoryId": 4
+    },
+    {
+      "id": 178,
+      "word": "Tava",
+      "categoryId": 4
+    },
+    {
+      "id": 179,
+      "word": "Bardak",
+      "categoryId": 4
+    },
+    {
+      "id": 180,
+      "word": "Tabak",
+      "categoryId": 4
+    },
+    {
+      "id": 181,
+      "word": "Kaşık",
+      "categoryId": 4
+    },
+    {
+      "id": 182,
+      "word": "Çatal",
+      "categoryId": 4
+    },
+    {
+      "id": 183,
+      "word": "Bıçak",
+      "categoryId": 4
+    },
+    {
+      "id": 184,
+      "word": "Ütü",
+      "categoryId": 4
+    },
+    {
+      "id": 185,
+      "word": "Elektrikli Süpürge",
+      "categoryId": 4
+    },
+    {
+      "id": 186,
+      "word": "Kalem",
+      "categoryId": 4
+    },
+    {
+      "id": 187,
+      "word": "Defter",
+      "categoryId": 4
+    },
+    {
+      "id": 188,
+      "word": "Kitap",
+      "categoryId": 4
+    },
+    {
+      "id": 189,
+      "word": "Çanta",
+      "categoryId": 4
+    },
+    {
+      "id": 190,
+      "word": "Cüzdan",
+      "categoryId": 4
+    },
+    {
+      "id": 191,
+      "word": "Anahtar",
+      "categoryId": 4
+    },
+    {
+      "id": 192,
+      "word": "Şemsiye",
+      "categoryId": 4
+    },
+    {
+      "id": 193,
+      "word": "Koltuk Takımı",
+      "categoryId": 4
+    },
+    {
+      "id": 194,
+      "word": "Çerçeve",
+      "categoryId": 4
+    },
+    {
+      "id": 195,
+      "word": "Vazo",
+      "categoryId": 4
+    },
+    {
+      "id": 196,
+      "word": "Deterjan",
+      "categoryId": 4
+    },
+    {
+      "id": 197,
+      "word": "Sepet",
+      "categoryId": 4
+    },
+    {
+      "id": 198,
+      "word": "Kova",
+      "categoryId": 4
+    },
+    {
+      "id": 199,
+      "word": "Süpürge",
+      "categoryId": 4
+    },
+    {
+      "id": 200,
+      "word": "Fener",
+      "categoryId": 4
+    },
+    {
+      "id": 201,
+      "word": "Priz",
+      "categoryId": 4
+    },
+    {
+      "id": 202,
+      "word": "Uzatma Kablosu",
+      "categoryId": 4
+    },
+    {
+      "id": 203,
+      "word": "Mouse",
+      "categoryId": 4
+    },
+    {
+      "id": 204,
+      "word": "Klavye",
+      "categoryId": 4
+    },
+    {
+      "id": 205,
+      "word": "Hoparlör",
+      "categoryId": 4
+    },
+    {
+      "id": 206,
+      "word": "Kulaklık",
+      "categoryId": 4
+    },
+    {
+      "id": 207,
+      "word": "Dağ",
+      "categoryId": 5
+    },
+    {
+      "id": 208,
+      "word": "Nehir",
+      "categoryId": 5
+    },
+    {
+      "id": 209,
+      "word": "Göl",
+      "categoryId": 5
+    },
+    {
+      "id": 210,
+      "word": "Deniz",
+      "categoryId": 5
+    },
+    {
+      "id": 211,
+      "word": "Okyanus",
+      "categoryId": 5
+    },
+    {
+      "id": 212,
+      "word": "Kıta",
+      "categoryId": 5
+    },
+    {
+      "id": 213,
+      "word": "Yarımada",
+      "categoryId": 5
+    },
+    {
+      "id": 214,
+      "word": "Vadi",
+      "categoryId": 5
+    },
+    {
+      "id": 215,
+      "word": "Kanyon",
+      "categoryId": 5
+    },
+    {
+      "id": 216,
+      "word": "Plato",
+      "categoryId": 5
+    },
+    {
+      "id": 217,
+      "word": "Ova",
+      "categoryId": 5
+    },
+    {
+      "id": 218,
+      "word": "Çöl",
+      "categoryId": 5
+    },
+    {
+      "id": 219,
+      "word": "Orman",
+      "categoryId": 5
+    },
+    {
+      "id": 220,
+      "word": "Volkan",
+      "categoryId": 5
+    },
+    {
+      "id": 221,
+      "word": "Ada",
+      "categoryId": 5
+    },
+    {
+      "id": 222,
+      "word": "Fiyort",
+      "categoryId": 5
+    },
+    {
+      "id": 223,
+      "word": "Delta",
+      "categoryId": 5
+    },
+    {
+      "id": 224,
+      "word": "Lagün",
+      "categoryId": 5
+    },
+    {
+      "id": 225,
+      "word": "Şelale",
+      "categoryId": 5
+    },
+    {
+      "id": 226,
+      "word": "Boğaz",
+      "categoryId": 5
+    },
+    {
+      "id": 227,
+      "word": "Körfez",
+      "categoryId": 5
+    },
+    {
+      "id": 228,
+      "word": "Akarsu",
+      "categoryId": 5
+    },
+    {
+      "id": 229,
+      "word": "Kayalık",
+      "categoryId": 5
+    },
+    {
+      "id": 230,
+      "word": "Zirve",
+      "categoryId": 5
+    },
+    {
+      "id": 231,
+      "word": "Buzul",
+      "categoryId": 5
+    },
+    {
+      "id": 232,
+      "word": "Tepe",
+      "categoryId": 5
+    },
+    {
+      "id": 233,
+      "word": "Kıyı",
+      "categoryId": 5
+    },
+    {
+      "id": 234,
+      "word": "Yayla",
+      "categoryId": 5
+    },
+    {
+      "id": 235,
+      "word": "Bataklık",
+      "categoryId": 5
+    },
+    {
+      "id": 236,
+      "word": "Tundra",
+      "categoryId": 5
+    },
+    {
+      "id": 237,
+      "word": "Tropikal Orman",
+      "categoryId": 5
+    },
+    {
+      "id": 238,
+      "word": "Savan",
+      "categoryId": 5
+    },
+    {
+      "id": 239,
+      "word": "Kutup",
+      "categoryId": 5
+    },
+    {
+      "id": 240,
+      "word": "Çayır",
+      "categoryId": 5
+    },
+    {
+      "id": 241,
+      "word": "Hinterland",
+      "categoryId": 5
+    },
+    {
+      "id": 242,
+      "word": "Ekvator",
+      "categoryId": 5
+    },
+    {
+      "id": 243,
+      "word": "Meridyen",
+      "categoryId": 5
+    },
+    {
+      "id": 244,
+      "word": "Paralel",
+      "categoryId": 5
+    },
+    {
+      "id": 245,
+      "word": "Atmosfer",
+      "categoryId": 5
+    },
+    {
+      "id": 246,
+      "word": "Karbondioksit",
+      "categoryId": 5
+    },
+    {
+      "id": 247,
+      "word": "İklim",
+      "categoryId": 5
+    },
+    {
+      "id": 248,
+      "word": "Hava Durumu",
+      "categoryId": 5
+    },
+    {
+      "id": 249,
+      "word": "Biyoçeşitlilik",
+      "categoryId": 5
+    },
+    {
+      "id": 250,
+      "word": "Jeoloji",
+      "categoryId": 5
+    },
+    {
+      "id": 251,
+      "word": "Topoğrafya",
+      "categoryId": 5
+    },
+    {
+      "id": 252,
+      "word": "Erozyon",
+      "categoryId": 5
+    },
+    {
+      "id": 253,
+      "word": "Deprem",
+      "categoryId": 5
+    },
+    {
+      "id": 254,
+      "word": "Fay Hattı",
+      "categoryId": 5
+    },
+    {
+      "id": 255,
+      "word": "Kayaç",
+      "categoryId": 5
+    },
+    {
+      "id": 256,
+      "word": "Mineral",
+      "categoryId": 5
+    },
+    {
+      "id": 257,
+      "word": "Krater",
+      "categoryId": 5
+    },
+    {
+      "id": 258,
+      "word": "Doğal Kaynaklar",
+      "categoryId": 5
+    },
+    {
+      "id": 259,
+      "word": "Yer Altı Suları",
+      "categoryId": 5
+    },
+    {
+      "id": 260,
+      "word": "Mevsim",
+      "categoryId": 5
+    },
+    {
+      "id": 261,
+      "word": "Magma",
+      "categoryId": 5
+    },
+    {
+      "id": 262,
+      "word": "Çorba",
+      "categoryId": 6
+    },
+    {
+      "id": 263,
+      "word": "Köfte",
+      "categoryId": 6
+    },
+    {
+      "id": 264,
+      "word": "Kebap",
+      "categoryId": 6
+    },
+    {
+      "id": 265,
+      "word": "Döner",
+      "categoryId": 6
+    },
+    {
+      "id": 266,
+      "word": "Mantı",
+      "categoryId": 6
+    },
+    {
+      "id": 267,
+      "word": "Lahmacun",
+      "categoryId": 6
+    },
+    {
+      "id": 268,
+      "word": "Pide",
+      "categoryId": 6
+    },
+    {
+      "id": 269,
+      "word": "Börek",
+      "categoryId": 6
+    },
+    {
+      "id": 270,
+      "word": "Pizza",
+      "categoryId": 6
+    },
+    {
+      "id": 271,
+      "word": "Makarna",
+      "categoryId": 6
+    },
+    {
+      "id": 272,
+      "word": "Pilav",
+      "categoryId": 6
+    },
+    {
+      "id": 273,
+      "word": "Kısır",
+      "categoryId": 6
+    },
+    {
+      "id": 274,
+      "word": "Cızlak",
+      "categoryId": 6
+    },
+    {
+      "id": 275,
+      "word": "Patates Kızartması",
+      "categoryId": 6
+    },
+    {
+      "id": 276,
+      "word": "Salata",
+      "categoryId": 6
+    },
+    {
+      "id": 277,
+      "word": "Zeytinyağlılar",
+      "categoryId": 6
+    },
+    {
+      "id": 278,
+      "word": "Karnıbahar",
+      "categoryId": 6
+    },
+    {
+      "id": 279,
+      "word": "Ispanak",
+      "categoryId": 6
+    },
+    {
+      "id": 280,
+      "word": "Mercimek",
+      "categoryId": 6
+    },
+    {
+      "id": 281,
+      "word": "Sebze Yemeği",
+      "categoryId": 6
+    },
+    {
+      "id": 282,
+      "word": "Tavuk",
+      "categoryId": 6
+    },
+    {
+      "id": 283,
+      "word": "Fırın Tavuk",
+      "categoryId": 6
+    },
+    {
+      "id": 284,
+      "word": "Izgara",
+      "categoryId": 6
+    },
+    {
+      "id": 285,
+      "word": "Balık",
+      "categoryId": 6
+    },
+    {
+      "id": 286,
+      "word": "Köfteci",
+      "categoryId": 6
+    },
+    {
+      "id": 287,
+      "word": "Sübye",
+      "categoryId": 6
+    },
+    {
+      "id": 288,
+      "word": "Meyve Salatası",
+      "categoryId": 6
+    },
+    {
+      "id": 289,
+      "word": "Dondurma",
+      "categoryId": 6
+    },
+    {
+      "id": 290,
+      "word": "Sütlaç",
+      "categoryId": 6
+    },
+    {
+      "id": 291,
+      "word": "Kadayıf",
+      "categoryId": 6
+    },
+    {
+      "id": 292,
+      "word": "Baklava",
+      "categoryId": 6
+    },
+    {
+      "id": 293,
+      "word": "Revani",
+      "categoryId": 6
+    },
+    {
+      "id": 294,
+      "word": "Künefe",
+      "categoryId": 6
+    },
+    {
+      "id": 295,
+      "word": "Lokma",
+      "categoryId": 6
+    },
+    {
+      "id": 296,
+      "word": "Çörek",
+      "categoryId": 6
+    },
+    {
+      "id": 297,
+      "word": "Kek",
+      "categoryId": 6
+    },
+    {
+      "id": 298,
+      "word": "Pasta",
+      "categoryId": 6
+    },
+    {
+      "id": 299,
+      "word": "Meyve",
+      "categoryId": 6
+    },
+    {
+      "id": 300,
+      "word": "Çikolata",
+      "categoryId": 6
+    },
+    {
+      "id": 301,
+      "word": "Tatlı",
+      "categoryId": 6
+    },
+    {
+      "id": 302,
+      "word": "Şerbet",
+      "categoryId": 6
+    },
+    {
+      "id": 303,
+      "word": "Komposto",
+      "categoryId": 6
+    },
+    {
+      "id": 304,
+      "word": "Soda",
+      "categoryId": 6
+    },
+    {
+      "id": 305,
+      "word": "Ayran",
+      "categoryId": 6
+    },
+    {
+      "id": 306,
+      "word": "Çay",
+      "categoryId": 6
+    },
+    {
+      "id": 307,
+      "word": "Kahve",
+      "categoryId": 6
+    },
+    {
+      "id": 308,
+      "word": "Türk Kahvesi",
+      "categoryId": 6
+    },
+    {
+      "id": 309,
+      "word": "Frappe",
+      "categoryId": 6
+    },
+    {
+      "id": 310,
+      "word": "Smoothie",
+      "categoryId": 6
+    },
+    {
+      "id": 311,
+      "word": "Börek",
+      "categoryId": 6
+    },
+    {
+      "id": 312,
+      "word": "Kumpir",
+      "categoryId": 6
+    },
+    {
+      "id": 313,
+      "word": "Tavuklu Pilav",
+      "categoryId": 6
+    },
+    {
+      "id": 314,
+      "word": "Şiş",
+      "categoryId": 6
+    },
+    {
+      "id": 315,
+      "word": "Fırın Makarna",
+      "categoryId": 6
+    },
+    {
+      "id": 316,
+      "word": "Kumpir",
+      "categoryId": 6
+    },
+    {
+      "id": 317,
+      "word": "Kenan İmirzalioğlu",
+      "categoryId": 7
+    },
+    {
+      "id": 318,
+      "word": "Tarkan",
+      "categoryId": 7
+    },
+    {
+      "id": 319,
+      "word": "Cem Yılmaz",
+      "categoryId": 7
+    },
+    {
+      "id": 320,
+      "word": "Beren Saat",
+      "categoryId": 7
+    },
+    {
+      "id": 321,
+      "word": "Kıvanç Tatlıtuğ",
+      "categoryId": 7
+    },
+    {
+      "id": 322,
+      "word": "Acun Ilıcalı",
+      "categoryId": 7
+    },
+    {
+      "id": 323,
+      "word": "Hadise",
+      "categoryId": 7
+    },
+    {
+      "id": 324,
+      "word": "Seda Sayan",
+      "categoryId": 7
+    },
+    {
+      "id": 325,
+      "word": "Barış Arduç",
+      "categoryId": 7
+    },
+    {
+      "id": 326,
+      "word": "Hülya Avşar",
+      "categoryId": 7
+    },
+    {
+      "id": 327,
+      "word": "Eminem",
+      "categoryId": 7
+    },
+    {
+      "id": 328,
+      "word": "Sinan Akçıl",
+      "categoryId": 7
+    },
+    {
+      "id": 329,
+      "word": "Gökhan Özen",
+      "categoryId": 7
+    },
+    {
+      "id": 330,
+      "word": "Demet Akalın",
+      "categoryId": 7
+    },
+    {
+      "id": 331,
+      "word": "Bergüzar Korel",
+      "categoryId": 7
+    },
+    {
+      "id": 332,
+      "word": "Meryem Uzerli",
+      "categoryId": 7
+    },
+    {
+      "id": 333,
+      "word": "Fahriye Evcen",
+      "categoryId": 7
+    },
+    {
+      "id": 334,
+      "word": "Çağatay Ulusoy",
+      "categoryId": 7
+    },
+    {
+      "id": 335,
+      "word": "Melis Sezen",
+      "categoryId": 7
+    },
+    {
+      "id": 336,
+      "word": "Sıla",
+      "categoryId": 7
+    },
+    {
+      "id": 337,
+      "word": "Eda Ece",
+      "categoryId": 7
+    },
+    {
+      "id": 338,
+      "word": "Burak Özçivit",
+      "categoryId": 7
+    },
+    {
+      "id": 339,
+      "word": "Can Yaman",
+      "categoryId": 7
+    },
+    {
+      "id": 340,
+      "word": "Yılmaz Erdoğan",
+      "categoryId": 7
+    },
+    {
+      "id": 341,
+      "word": "Şahan Gökbakar",
+      "categoryId": 7
+    },
+    {
+      "id": 342,
+      "word": "Arda Turan",
+      "categoryId": 7
+    },
+    {
+      "id": 343,
+      "word": "Emre Belözoğlu",
+      "categoryId": 7
+    },
+    {
+      "id": 344,
+      "word": "Bulent Ersoy",
+      "categoryId": 7
+    },
+    {
+      "id": 345,
+      "word": "Yıldız Tilbe",
+      "categoryId": 7
+    },
+    {
+      "id": 346,
+      "word": "Sezen Aksu",
+      "categoryId": 7
+    },
+    {
+      "id": 347,
+      "word": "Orhan Gencebay",
+      "categoryId": 7
+    },
+    {
+      "id": 348,
+      "word": "Candan Erçetin",
+      "categoryId": 7
+    },
+    {
+      "id": 349,
+      "word": "İbrahim Tatlıses",
+      "categoryId": 7
+    },
+    {
+      "id": 350,
+      "word": "Berkay",
+      "categoryId": 7
+    },
+    {
+      "id": 351,
+      "word": "Gülben Ergen",
+      "categoryId": 7
+    },
+    {
+      "id": 352,
+      "word": "Serenay Sarıkaya",
+      "categoryId": 7
+    },
+    {
+      "id": 353,
+      "word": "Çağla Şıkel",
+      "categoryId": 7
+    },
+    {
+      "id": 354,
+      "word": "Yasemin Allen",
+      "categoryId": 7
+    },
+    {
+      "id": 355,
+      "word": "Gökhan Töre",
+      "categoryId": 7
+    },
+    {
+      "id": 356,
+      "word": "İsmail Hakkı Demirci",
+      "categoryId": 7
+    },
+    {
+      "id": 357,
+      "word": "Kubra Khan",
+      "categoryId": 7
+    },
+    {
+      "id": 358,
+      "word": "Tarkan",
+      "categoryId": 7
+    },
+    {
+      "id": 359,
+      "word": "Ali Atay",
+      "categoryId": 7
+    }
+  ]
+}

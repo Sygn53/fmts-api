@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hayvanlar"
+    },
+    {
+      "id": 2,
+      "name": "Meslekler"
+    },
+    {
+      "id": 3,
+      "name": "Spor"
+    },
+    {
+      "id": 4,
+      "name": "Eşyalar"
+    },
+    {
+      "id": 5,
+      "name": "Coğrafya"
+    },
+    {
+      "id": 6,
+      "name": "Yemek"
+    },
+    {
+      "id": 7,
+      "name": "Ünlüler"
+    }
+  ]
+}
