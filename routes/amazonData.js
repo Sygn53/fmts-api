@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { amazonSearch } = require('../components/amazonSearch');
 const {amazonASIN} = require("../components/amazonASIN");
-const {bestSeller} = require("../components/bestSeller");
+// const {bestSeller} = require("../components/bestSeller");
 
 
 router.get('/asin/:id', async (req, res) => {
