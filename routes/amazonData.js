@@ -2,8 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { amazonSearch } = require('../components/amazonSearch');
 const {amazonASIN} = require("../components/amazonASIN");
-// const {bestSeller} = require("../components/bestSeller");
-
+const {bestSeller} = require("../components/bestSeller");
 
 router.get('/asin/:id', async (req, res) => {
     const ASIN = req.params.id;
@@ -32,15 +31,15 @@ router.get('/search/:query', async (req, res) => {
     }
 });
 
-// router.get('/bestSeller', async (req, res) => {
-//
-//     try {
-//         const results = await bestSeller();
-//         res.json(results);
-//     } catch (error) {
-//         res.status(500).json({ error: 'An error occurred while fetching data from Amazon.' });
-//     }
-// });
+router.get('/bestSeller', async (req, res) => {
+
+    try {
+        const results = await bestSeller();
+        res.json(results);
+    } catch (error) {
+        res.status(500).json({ error: 'An error occurred while fetching data from Amazon.' });
+    }
+});
 
 module.exports = router;
 

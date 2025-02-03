@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-// const usersRoute = require('../routes/users');
+const usersRoute = require('../routes/users');
 const homeRoute = require('../routes/home');
 const amazonData = require('../routes/amazonData');
 const wordsData = require('../routes/wordsData');
@@ -12,14 +12,14 @@ app.use(express.urlencoded({ extended: true }));
 
 // app.use('/monitoring', monitorRoute);
 app.use('/' ,homeRoute);
-// app.use('/users', usersRoute);
+app.use('/users', usersRoute);
 app.use('/amazonData', amazonData);
 app.use('/words', wordsData);
 
+ // const ipAddress = "172.20.10.3"; // IP adresiniz
 // const ipAddress = "10.34.10.138"; // IP adresiniz
-// const ipAddress = "10.34.10.138"; // IP adresiniz
-// const port = process.env.PORT || 3031;
-//
+// const port = process.env.PORT || 8080;
+
 // app.listen(port, ipAddress,() => {
 //     console.log(`Server is running at http://${ipAddress}:${port}`);
 // });

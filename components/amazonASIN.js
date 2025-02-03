@@ -1,15 +1,8 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
+const {getRandomHeaders} = require("../api/Headers");
 
-const headers = {
-    // 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
-    // 'Accept-Language': 'en-US,en;q=0.9',
-    // 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive'
-};
+const headers = getRandomHeaders();
 
 // Amazon ürün sayfası URL'si (Örnek bir ürün URL'si)
 const urlASIN = "https://www.amazon.com/dp/";

@@ -1,11 +1,8 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
+const {getRandomHeaders} = require("../api/Headers");
 
-const headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-};
+const headers = getRandomHeaders();
 
 const amazonSearch = async (searchQuery, maxPages) => {
     const baseUrl = `https://www.amazon.com/s?k=${encodeURIComponent(searchQuery)}`;
@@ -32,6 +29,8 @@ const amazonSearch = async (searchQuery, maxPages) => {
                 //ürün image
                 const image = $(element).find('.s-image').attr('src')?.trim();
 
+                // ASIN kodunu al
+                const asin = $(element).attr('data-asin')?.trim();
 
                 // Best Seller and amazon Choice
                 const bestSellerBadge = $(element).find('span .a-badge-text').text().trim();
@@ -41,11 +40,21 @@ const amazonSearch = async (searchQuery, maxPages) => {
                 // Ürün rating
                 const rating = $(element).find("span .a-icon-alt").first().text().trim();
 
+                // **Yorum Sayısını Al (countReview)**
+                let countReview = $(element).find("span.a-size-base.s-underline-text").first().text().trim();
+
+
+                // Sayıyı temizle (örneğin "12,345" -> 12345)
+                countReview = countReview.replace(/[,]/g, "");
+
+
                 if (title && image) {
                     products.push({
                         title,
                         price,
                         image,
+                        asin,
+                        countReview: countReview,
                         amazonChoice: amazonChoice,
                         bestSeller: isBestSeller,
                         rating: rating,
