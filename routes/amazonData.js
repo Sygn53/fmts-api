@@ -9,7 +9,6 @@ router.get('/asin/:id', async (req, res) => {
 
     try {
         const results = await amazonASIN(ASIN);
-
         res.json(results);
     } catch (error) {
         res.status(500).json({error: 'An error occurred while fetching data from Amazon.'});

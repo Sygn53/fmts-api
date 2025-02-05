@@ -1,12 +1,10 @@
 const axios = require('axios');
-const cheerio = require('cheerio');
-const {getRandomHeaders} = require("../api/Headers");
-// const puppeteer = require('puppeteer');
+const { JSDOM } = require('jsdom');
+const { getRandomHeaders } = require("../api/Headers");
 
 const headers = getRandomHeaders();
 
 const bestSellerUrl = 'https://www.amazon.com/Best-Sellers/zgbs';
-
 
 // const proxyConfig = {
 //     protocol: 'http',
@@ -18,7 +16,6 @@ const bestSellerUrl = 'https://www.amazon.com/Best-Sellers/zgbs';
 //     }
 // };
 
-
 const bestSeller = async () => {
     try {
         const { data } = await axios.get(bestSellerUrl, {
@@ -26,52 +23,79 @@ const bestSeller = async () => {
             // proxy: proxyConfig
         });
 
-        // Sayfanın içeriğini Cheerio ile yükle
-        const $ = cheerio.load(data);
+        // Sayfanın içeriğini JSDOM ile yükle
+        const dom = new JSDOM(data);
+        const document = dom.window.document;
 
         // Best Seller ürünlerini seç
         const products = [];
 
-        $('.a-carousel-viewport').each((index, element) => {
+        const categories = [];
+        const categoryTitle = document.querySelectorAll('h2.a-carousel-heading');
+        categoryTitle.forEach((item, index) => {
+            categories.push(item.textContent.trim());
+        });
+
+        const carouselElements = document.querySelectorAll('.a-carousel-viewport');
+        carouselElements.forEach((element, index) => {
             const title = [];
             const link = [];
             const image = [];
+            const rating = [];
+            const price = [];
             const items = [];
 
             // Title
-            $(element).find('.p13n-sc-truncate-desktop-type2').each((ind, item) => {
-                title.push($(item).text().trim());
+            const titleElements = element.querySelectorAll('.p13n-sc-truncate-desktop-type2');
+            titleElements.forEach((item) => {
+                title.push(item.textContent.trim());
             });
 
             // Link
-            $(element).find('.a-link-normal').each((ind, item) => {
-                if (ind < 5) {
-                    link.push($(item).attr('href'));
+            const linkElements = element.querySelectorAll('.a-link-normal');
+            linkElements.forEach((item, ind) => {
+                if (ind < 6) {
+                    link.push(item.getAttribute('href'));
                 }
             });
 
             // Image
-            $(element).find('img').each((ind, img) => {
-                const imgSrc = $(img).attr('src');
+            const imgElements = element.querySelectorAll('img');
+            imgElements.forEach((img) => {
+                const imgSrc = img.getAttribute('src');
                 if (imgSrc) {
                     image.push(imgSrc);
                 }
             });
 
-            for (let i = 0; i < title.length; i++) {
-                let obj = {
-                    title: title[i],
-                    link: link[i],
-                    image: image[i],
+            // Rating
+            const ratingElements = element.querySelectorAll('.a-icon-alt');
+            ratingElements.forEach((item) => {
+                rating.push(item.textContent.trim());
+            });
+
+            // Price
+            const priceElements = element.querySelectorAll('[class*="p13n-sc-price"]');
+            priceElements.forEach((item, index) => {
+                // Eğer öğe bir <style> etiketi içinde değilse işle
+                if (!item.closest('style')) {
+                    price.push(item.textContent.trim());
                 }
+            });
+
+            for (let i = 0; i < 6; i++) {
+                let obj = {
+                    title: title[i] || '',
+                    link: link[i] || '',
+                    image: image[i] || '',
+                    rating: rating[i] || 'No rating',
+                    price: price[i] || 'No price',
+                };
                 items.push(obj);
             }
-            const categoryTitle = $('h2.a-carousel-heading').text().trim();
-            const categories = categoryTitle.split('&')[index]
-
 
             products.push({
-                categories: categories,
+                categories: categories[index],
                 index: index,
                 items: items,
             });
@@ -82,48 +106,6 @@ const bestSeller = async () => {
     } catch (error) {
         console.error("Genel Hata:", error.message);
     }
-}
-
-// const bestSeller = async () => {
-//     const browser = await puppeteer.launch({
-//         headless: "new", // veya false kullan
-//         args: ["--disable-blink-features=AutomationControlled"]
-//     });
-//     const page = await browser.newPage();
-//     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
-//
-//     try {
-//         await page.goto(bestSellerUrl, { waitUntil: 'networkidle2' });
-//
-//         const products = await page.evaluate(() => {
-//             const items = [];
-//             document.querySelectorAll('.a-carousel-viewport').forEach((element, index) => {
-//                 const titleElements = element.querySelectorAll('.p13n-sc-truncate-desktop-type2');
-//                 const title = Array.from(titleElements).map(el => el.innerText.trim());
-//
-//                 let link = '';
-//                 if (index < 4) {
-//                     const linkElement = element.querySelector('.a-link-normal');
-//                     if (linkElement) {
-//                         link = linkElement.href;
-//                     }
-//                 }
-//
-//                 items.push({
-//                     carouselIndex: index + 1,
-//                     title,
-//                     link,
-//                 });
-//             });
-//             return items;
-//         });
-//
-//         await browser.close();
-//         return products;
-//     } catch (error) {
-//         console.error("Genel Hata:", error.message);
-//         await browser.close();
-//     }
-// };
+};
 
 module.exports = { bestSeller };

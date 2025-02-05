@@ -44,42 +44,6 @@ const headers5 = {
 };
 
 const headers6 = {
-    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.apple.com/",
-    "DNT": "1",
-    "Connection": "keep-alive"
-};
-
-const headers7 = {
-    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.google.com/",
-    "DNT": "1",
-    "Connection": "keep-alive"
-};
-
-const headers8 = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.google.com/",
-    "DNT": "1",
-    "Connection": "keep-alive"
-};
-
-const headers9 = {
-    "User-Agent": "Mozilla/5.0 (Android 14; Mobile; rv:118.0) Gecko/118.0 Firefox/118.0",
-    "Accept-Language": "en-US,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.mozilla.org/",
-    "DNT": "1",
-    "Connection": "keep-alive"
-};
-
-const headers10 = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
@@ -88,7 +52,7 @@ const headers10 = {
     "Connection": "keep-alive"
 };
 
-const headers11 = {
+const headers7 = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:118.0) Gecko/20100101 Firefox/118.0",
     "Accept-Language": "en-US,en;q=0.8",
     "Accept-Encoding": "gzip, deflate, br",
@@ -97,7 +61,7 @@ const headers11 = {
     "Connection": "keep-alive"
 };
 
-const headers12 = {
+const headers8 = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
@@ -106,7 +70,7 @@ const headers12 = {
     "Connection": "keep-alive"
 };
 
-const headers13 = {
+const headers9 = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
@@ -115,25 +79,7 @@ const headers13 = {
     "Connection": "keep-alive"
 };
 
-const headers14 = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 15; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.google.com/",
-    "DNT": "1",
-    "Connection": "keep-alive"
-};
-
-const headers15 = {
-    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.apple.com/",
-    "DNT": "1",
-    "Connection": "keep-alive"
-};
-
-const headers16 = {
+const headers10 = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
@@ -142,7 +88,7 @@ const headers16 = {
     "Connection": "keep-alive"
 };
 
-const headers17 = {
+const headers11 = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_2) AppleWebKit/537.36 (KHTML, like Gecko) Version/18.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
@@ -151,7 +97,7 @@ const headers17 = {
     "Connection": "keep-alive"
 };
 
-const headers18 = {
+const headers12 = {
     "User-Agent": "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/121.0.0.0",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
@@ -160,16 +106,7 @@ const headers18 = {
     "Connection": "keep-alive"
 };
 
-const headers19 = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 16; Samsung Galaxy S24 Ultra) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Referer": "https://www.google.com/",
-    "DNT": "1",
-    "Connection": "keep-alive"
-};
-
-const headers20 = {
+const headers13 = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
     "Accept-Language": "en-US,en;q=0.8",
     "Accept-Encoding": "gzip, deflate, br",
@@ -178,7 +115,7 @@ const headers20 = {
     "Connection": "keep-alive"
 };
 
-const headers21 = {
+const headers14 = {
     "User-Agent": "Mozilla/5.0 (iPad; CPU OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
@@ -187,7 +124,7 @@ const headers21 = {
     "Connection": "keep-alive"
 };
 
-const headersList = [headers1, headers2, headers3, headers4, headers5, headers6, headers7, headers8, headers9, headers10, headers11, headers12, headers13, headers14, headers15, headers16, headers17, headers18, headers19, headers20, headers21];
+const headersList = [headers1, headers2, headers3, headers4, headers5, headers6, headers7, headers8, headers9, headers10, headers11, headers12, headers13, headers14];
 
 export const getRandomHeaders = () => {
     return headersList[Math.floor(Math.random() * headersList.length)];
