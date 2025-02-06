@@ -1,7 +1,9 @@
 import randomUseragent from "random-useragent";
 
 const headers1 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.google.com/",
@@ -10,7 +12,9 @@ const headers1 = {
 };
 
 const headers2 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.5",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.bing.com/",
@@ -19,7 +23,9 @@ const headers2 = {
 };
 
 const headers3 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.8",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.bing.com/",
@@ -28,7 +34,9 @@ const headers3 = {
 };
 
 const headers4 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.yahoo.com/",
@@ -37,7 +45,9 @@ const headers4 = {
 };
 
 const headers5 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.apple.com/",
@@ -46,7 +56,9 @@ const headers5 = {
 };
 
 const headers6 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.google.com/",
@@ -55,7 +67,9 @@ const headers6 = {
 };
 
 const headers7 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.google.com/",
@@ -64,7 +78,9 @@ const headers7 = {
 };
 
 const headers8 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.google.com/",
@@ -73,7 +89,9 @@ const headers8 = {
 };
 
 const headers9 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.apple.com/",
@@ -82,7 +100,9 @@ const headers9 = {
 };
 
 const headers10 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.bing.com/",
@@ -91,7 +111,9 @@ const headers10 = {
 };
 
 const headers11 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.8",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.mozilla.org/",
@@ -100,7 +122,9 @@ const headers11 = {
 };
 
 const headers12 = {
-    "User-Agent": randomUseragent.getRandom(),
+    "User-Agent": randomUseragent.getRandom(function (ua) {
+        return !ua.folder.includes('/Mobile Devices') || !ua.folder.includes('/Miscellaneous');
+    }),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.apple.com/",
