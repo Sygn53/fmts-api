@@ -104,7 +104,6 @@ const bestSeller = async () => {
             });
             if (products[0]?.items[0].title === '' || products[0]?.items[0].price === 'No price') {
                 again = true;
-                console.log("girdi...");
             } else {
                 again = false;
                 return products;
