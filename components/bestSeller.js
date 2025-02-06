@@ -105,6 +105,7 @@ const bestSeller = async () => {
 
     } catch (error) {
         console.error("Genel Hata:", error.message);
+        return "Genel Hata:" + error.message
     }
 };
 
