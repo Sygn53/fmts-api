@@ -19,12 +19,8 @@ router.get('/search/:query', async (req, res) => {
     const query = req.params.query || 'clock';
 
     try {
-        let temp = [];
-        for (let maxPages = 1; maxPages < 2; maxPages++) {
-            const results = await amazonSearch(query, maxPages);
-            temp.push(results);
-        }
-        res.json(temp);
+        const results = await amazonSearch(query);
+        res.json(results);
     } catch (error) {
         res.status(500).json({ error: 'An error occurred while fetching data from Amazon.' });
     }

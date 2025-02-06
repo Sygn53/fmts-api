@@ -78,7 +78,7 @@ const bestSeller = async () => {
             const priceElements = element.querySelectorAll('[class*="p13n-sc-price"]');
             priceElements.forEach((item, index) => {
                 // Eğer öğe bir <style> etiketi içinde değilse işle
-                if (!item.closest('style')) {
+                if (!item.closest('style') && !price.includes(item.textContent.trim())) {
                     price.push(item.textContent.trim());
                 }
             });
